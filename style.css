@@ -1,0 +1,82 @@
+p{
+  font-family: 'Noto Sans', sans-serif;
+  line-height: 1.8;
+  text-align: justify;
+}
+h1,h2,h3,h4{
+  text-shadow: .3px .3px .7px #DCDCDC, 0 0 .3em #DCDCDC;
+}
+
+body {
+  background-color: black;
+  opacity: 0.8;
+}
+
+.order{
+    background-color:black;
+    opacity: 0.9;
+}
+.bg_img_1{
+  background-image:url(https://lh6.googleusercontent.com/-kBrnPgNLJTI/U64pgciGWyI/AAAAAAAAAZQ/83maEKdkdy0/s720/best-tattoo-machine1.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 30%;
+}
+.bg_img_2{
+  background-image:url(https://global-uploads.webflow.com/5ad79663a6722a97c3d6a3f1/5ad79663a6722acd69d6e652_3%20Best%20Rotary%20Tattoo%20Kits%20OG%20Image%20Top%20Image.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 70%;
+}
+.bg_img_g{
+  background-color: black
+  opacity: 0.9;
+}
+.container-xxl{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+  url(https://img.freepik.com/free-photo/hand-detail-with-rotary-tattoo-machine_152904-4688.jpg?size=626&ext=jpg);
+  background-position: center;
+  background-size:160%;
+}
+.d-block{
+  max-width: 300px;
+}
+map{
+  width: 400px;
+  height: 400px;
+  border-radius: .25rem;
+}
+.col-6{
+  background-color: brown;
+}
+/* Animation text */
+._anim-items {
+  margin: 0px 0px 0px 20px 0px;
+  transform: translate(0px, 20%);
+  opacity: 0;
+  transition: all 0.8s ease 0s;
+}
+._active {
+  transform: translate(0px, 0px);
+  opacity: 1;
+}
+  .form{
+    margin: auto;
+    border-radius: .25rem;
+  }
+
+
+/* Animation text end */
+@media screen and (max-width: 479px) {
+  /* Styles for phones - the beginning */
+  .container .container-xxl{
+    width: 100%;
+  }
+  .col_bg_img{
+    display: none;
+  }
+  .text_media{
+    width: 100%;
+  }
+  }
+
